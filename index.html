@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Landing Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome for Gym Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <!-- Include Swiper CSS in <head> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">FitZone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center text-center">
+      <div class="overlay"></div>
+      <div class="container position-relative z-2">
+        <h1 class="hero-title" data-aos="fade-down">Transform Your Body at <span class="text-warning">FitZone</span></h1>
+        <p class="lead text-light" data-aos="fade-up" data-aos-delay="200">Achieve your goals with expert trainers and state-of-the-art facilities.</p>
+        <a href="#contact" class="btn btn-warning mt-3" data-aos="zoom-in" data-aos-delay="400">Get Started</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5 position-relative bg-dark text-light">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <!-- Image Column -->
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up-right">
+            <img src="https://b3327586.smushcdn.com/3327586/wp-content/uploads/2024/05/gb-botanica-gym-link-spaces-slough-1024x683.jpg?lossy=0&strip=1&webp=1" alt="Gym Training" class="img-fluid rounded-4 shadow" />
+          </div>
+
+          <!-- Text Column -->
+          <div class="col-lg-6" data-aos="fade-up-left">
+            <h2 class="display-5 fw-bold mb-4 text-warning">Welcome to FitZone</h2>
+            <p class="fs-5 mb-4 text-white-50">
+              At FitZone, we redefine fitness by offering personalized programs, expert trainers, and world-class facilities. Whether you're a beginner or a pro, our environment is crafted to elevate your workout experience.
+            </p>
+
+            <div class="row text-start">
+              <div class="col-6 mb-3">
+                <i class="bi bi-lightning-charge-fill text-warning me-2"></i> High-Energy Workouts
+              </div>
+              <div class="col-6 mb-3">
+                <i class="bi bi-people-fill text-warning me-2"></i> Group Fitness Classes
+              </div>
+              <div class="col-6 mb-3">
+                <i class="bi bi-clock-fill text-warning me-2"></i> 24/7 Access
+              </div>
+              <div class="col-6 mb-3">
+                <i class="bi bi-person-badge-fill text-warning me-2"></i> Certified Trainers
+              </div>
+            </div>
+
+            <a href="#services" class="btn btn-warning mt-4 px-4 py-2 fw-semibold">Explore Our Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5 bg-light position-relative">
+      <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-down">
+          <h2 class="fw-bold display-5 text-dark">Our <span class="text-warning">Services</span></h2>
+          <p class="text-muted fs-5">Everything you need for your fitness transformation</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service Card 1 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-dumbbell text-warning fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Weight Training</h4>
+              <p class="text-muted">Build strength and endurance with our state-of-the-art equipment and personal guidance.</p>
+            </div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-heartbeat text-danger fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Cardio Training</h4>
+              <p class="text-muted">Stay fit and boost your stamina with treadmills, cycling, and HIIT programs.</p>
+            </div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-fire-alt text-danger fs-1"></i>
+              </div>
+              <h4 class="fw-bold">CrossFit & HIIT</h4>
+              <p class="text-muted">Burn calories fast and push limits with dynamic and explosive workout routines.</p>
+            </div>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-running text-success fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Cardio Training</h4>
+              <p class="text-muted">Improve heart health and endurance with focused cardio sessions tailored for all levels.</p>
+            </div>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-dumbbell text-primary fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Strength Training</h4>
+              <p class="text-muted">Build muscle and increase power with our guided strength training programs.</p>
+            </div>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card service-card h-100 border-0 shadow-lg text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="fas fa-spa text-info fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Yoga & Flexibility</h4>
+              <p class="text-muted">Enhance flexibility, balance, and mindfulness with calming yoga sessions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers-section py-5 position-relative bg-dark text-white">
+      <!-- SVG Wave Divider -->
+      <div class="custom-shape-divider-top-1715765091">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 V60 C300,120 900,0 1200,60 V0z" fill="#f8f9fa"></path>
+        </svg>
+      </div>
+
+      <div class="container position-relative z-1">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-4 text-warning">Our Trainers</h2>
+          <p class="lead text-light">Passionate. Skilled. Motivated.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Trainer Card -->
+          <div class="col-md-4" data-aos="zoom-in">
+            <div class="card bg-transparent text-center border-0 trainer-card-2 p-3">
+              <img src="https://t3.ftcdn.net/jpg/06/35/17/52/360_F_635175286_Ve3RnNYKcHmWsHRNNhoWq4c38pLpZapu.jpg" class="rounded-circle mx-auto mb-3" style="width: 260px; height: 260px; object-fit: cover;" alt="Trainer">
+              <h5 class="text-warning fw-bold">Sophie White</h5>
+              <p class="text-muted small">CrossFit Expert</p>
+              <div class="social-icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat 2 more trainers below -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card bg-transparent text-center border-0 trainer-card-2 p-3">
+              <img src="https://files.idyllic.app/files/static/2025519?width=384&optimizer=image" class="rounded-circle mx-auto mb-3" style="width: 260px; height: 260px;" alt="Trainer">
+              <h5 class="text-warning fw-bold">Mark Lee</h5>
+              <p class="text-muted small">Bodybuilding Coach</p>
+              <div class="social-icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card bg-transparent text-center border-0 trainer-card-2 p-3">
+              <img src="https://www.uaepersonaltrainers.com/wp-content/uploads/2020/05/Ladies-Fitness-Personal-Trainer-In-Dubai-Shiblin-e1647010442647.jpg" class="rounded-circle mx-auto mb-3" style="width: 260px; height: 260px;" alt="Trainer">
+              <h5 class="text-warning fw-bold">Ava Green</h5>
+              <p class="text-muted small">Pilates Instructor</p>
+              <div class="social-icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Slider Section -->
+    <section id="testimonials" class="bg-light py-5 bigger-testimonials">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5 text-dark">What Our <span class="text-warning">Clients Say</span></h2>
+          <p class="text-muted fs-5">Real stories from real members</p>
+        </div>
+
+        <!-- Swiper Container -->
+        <div class="swiper testimonial-slider">
+          <div class="swiper-wrapper mb-4">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 1" />
+                  <div>
+                    <h5 class="mb-0">Rahul Mehta</h5>
+                    <small class="text-muted">IT Professional</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"FitZone has transformed my energy levels and helped me get back in shape after years. Great coaches and vibe!"</p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/women/15.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 2" />
+                  <div>
+                    <h5 class="mb-0">Priya Sharma</h5>
+                    <small class="text-muted">Marketing Manager</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"The group workouts are super motivating! I love the variety and energy at FitZone. Totally recommended!"</p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/men/30.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 3" />
+                  <div>
+                    <h5 class="mb-0">Sandeep Raj</h5>
+                    <small class="text-muted">Freelancer</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"Highly professional trainers with great equipment. I feel healthier and more focused after joining."</p>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/women/22.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 4" />
+                  <div>
+                    <h5 class="mb-0">Anjali Patel</h5>
+                    <small class="text-muted">Graphic Designer</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"The personalized training plans really helped me meet my fitness goals faster than I expected."</p>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/men/44.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 5" />
+                  <div>
+                    <h5 class="mb-0">Vikram Singh</h5>
+                    <small class="text-muted">Entrepreneur</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"I love the energy and motivation in every class. The trainers are top-notch professionals."</p>
+              </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/women/36.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 6" />
+                  <div>
+                    <h5 class="mb-0">Sneha Rao</h5>
+                    <small class="text-muted">Teacher</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"Great atmosphere and very supportive staff. I feel so much stronger and confident now."</p>
+              </div>
+            </div>
+
+            <!-- Slide 7 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/men/52.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 7" />
+                  <div>
+                    <h5 class="mb-0">Karan Malhotra</h5>
+                    <small class="text-muted">Software Engineer</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"The flexible timings and excellent trainers make it easy to maintain my fitness routine."</p>
+              </div>
+            </div>
+
+            <!-- Slide 8 -->
+            <div class="swiper-slide">
+              <div class="card p-4 border-0 shadow rounded-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="https://randomuser.me/api/portraits/women/45.jpg" class="rounded-circle me-3" width="60" height="60" alt="Client 8" />
+                  <div>
+                    <h5 class="mb-0">Meera Joshi</h5>
+                    <small class="text-muted">Nutritionist</small>
+                  </div>
+                </div>
+                <p class="text-muted fst-italic">"FitZone's holistic approach to health helped me balance exercise with proper nutrition."</p>
+              </div>
+            </div>
+          </div>
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination mt-4"></div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Plan Section -->
+    <section id="pricing" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5 text-dark">Choose Your <span class="text-warning">Plan</span></h2>
+          <p class="text-muted fs-5">Flexible pricing to match your goals</p>
+        </div>
+
+        <div class="row justify-content-center gy-4">
+          <!-- Basic Plan -->
+          <div class="col-md-4">
+            <div class="card pricing-card text-center p-4 shadow rounded-4 h-100">
+              <div class="mb-3">
+                <i class="bi bi-person text-warning fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Basic</h4>
+              <h2 class="text-dark">$19<span class="fs-6">/mo</span></h2>
+              <ul class="list-unstyled my-3 text-muted">
+                <li>Gym Access</li>
+                <li>Free Locker</li>
+                <li>1 Group Class</li>
+              </ul>
+              <button class="btn btn-warning rounded-pill px-4">Get Started</button>
+            </div>
+          </div>
+
+          <!-- Standard Plan -->
+          <div class="col-md-4">
+            <div class="card pricing-card text-center p-4 shadow-lg rounded-4 h-100 active-plan">
+              <div class="mb-3">
+                <i class="bi bi-person-fill-check text-warning fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Standard</h4>
+              <h2 class="text-dark">$39<span class="fs-6">/mo</span></h2>
+              <ul class="list-unstyled my-3 text-muted">
+                <li>Everything in Basic</li>
+                <li>Unlimited Classes</li>
+                <li>Personal Trainer</li>
+              </ul>
+              <button class="btn btn-warning rounded-pill px-4">Join Now</button>
+            </div>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="col-md-4">
+            <div class="card pricing-card text-center p-4 shadow rounded-4 h-100">
+              <div class="mb-3">
+                <i class="bi bi-gem text-warning fs-1"></i>
+              </div>
+              <h4 class="fw-bold">Pro</h4>
+              <h2 class="text-dark">$59<span class="fs-6">/mo</span></h2>
+              <ul class="list-unstyled my-3 text-muted">
+                <li>All Standard Features</li>
+                <li>Nutrition Plan</li>
+                <li>Massage Sessions</li>
+              </ul>
+              <button class="btn btn-warning rounded-pill px-4">Go Premium</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2>Contact Us</h2>
+          <p>We’d love to hear from you! Reach out for memberships or queries.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Contact Info -->
+          <div class="col-md-6" data-aos="fade-right">
+            <h5><i class="bi bi-geo-alt-fill text-warning me-2"></i>Our Location</h5>
+            <p>123 Fit Street, Muscle City, GymLand 400123</p>
+
+            <h5><i class="bi bi-telephone-fill text-warning me-2"></i>Call Us</h5>
+            <p>+1 234 567 890</p>
+
+            <h5><i class="bi bi-envelope-fill text-warning me-2"></i>Email</h5>
+            <p>info@gymboost.com</p>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-6" data-aos="fade-left">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning px-4">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action / Motivation Section -->
+    <section class="cta-section text-white text-center py-5">
+      <div class="container">
+        <h2 class="display-4 fw-bold">Push Your Limits, Achieve Your Goals</h2>
+        <p class="fs-5 mt-3 mb-4">Join FitZone today and become the best version of yourself. Your fitness journey starts now!</p>
+        <a href="#pricing" class="btn btn-warning btn-lg px-5 py-3 fw-bold">Join Now</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- About -->
+          <div class="col-md-4" data-aos="fade-right">
+            <h5 class="text-warning">GymBoost</h5>
+            <p>Your ultimate destination for transforming body and mind. Get stronger, healthier, and happier with us!</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4" data-aos="fade-up">
+            <h5 class="text-warning">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+              <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
+              <li><a href="#pricing" class="text-white text-decoration-none">Pricing</a></li>
+              <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4" data-aos="fade-left">
+            <h5 class="text-warning">Follow Us</h5>
+            <div class="d-flex gap-3 fs-4">
+              <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="border-secondary my-4">
+
+        <div class="text-center text-secondary">
+          &copy; 2025 GymBoost. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="btn btn-warning rounded-circle back-to-top" id="backToTop">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- Back to Top Button Script -->
+  <script>
+    const backToTopButton = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+
+  <!-- Swiper JS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.testimonial-slider', {
+      loop: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        0: { slidesPerView: 1, spaceBetween: 0 },
+        576: { slidesPerView: 1, spaceBetween: 0 },
+        768: { slidesPerView: 2, spaceBetween: 0 },
+        992: { slidesPerView: 3, spaceBetween: 0 },
+      },
+    });
+  </script>
+</body>
+</html>
